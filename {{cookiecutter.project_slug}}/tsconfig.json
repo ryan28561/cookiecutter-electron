@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "target": "esnext",
+    "module": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "{{cookiecutter.short_name}}_components/*": ["src/components/*"],
+      "{{cookiecutter.short_name}}_containers/*": ["src/containers/*"],
+      "{{cookiecutter.short_name}}_utils/*": ["src/utils/*"],
+      "{{cookiecutter.short_name}}_images/*": ["src/images/*"]
+    },
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true
+  }
+}

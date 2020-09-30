@@ -1,0 +1,19 @@
+{
+  "name": "{{ cookiecutter.project_name }}",
+  "version": "0.0.1",
+  "description": "{{ cookiebutter.description }}",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hotOnly",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/{{cookiecutter.author_name}}/{{cookiecutter.project_slug}}.git"
+  },
+  "author": "{{ cookiecutter.author }}",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
