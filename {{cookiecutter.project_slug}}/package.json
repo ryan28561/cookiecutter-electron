@@ -1,7 +1,7 @@
 {
-  "name": "{{ cookiecutter.project_name }}",
+  "name": "{{ cookiecutter.project_slug }}",
   "version": "0.0.1",
-  "description": "{{ cookiebutter.description }}",
+  "description": "{{ cookiecutter.description }}",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hotOnly",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/{{cookiecutter.author_name}}/{{cookiecutter.project_slug}}.git"
+    "url": "git+https://github.com/{{cookiecutter.author}}/{{cookiecutter.project_slug}}.git"
   },
   "author": "{{ cookiecutter.author }}",
   "dependencies": {

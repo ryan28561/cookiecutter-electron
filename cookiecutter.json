@@ -1,6 +1,6 @@
 {
   "project_name": "New Project",
-  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '')|replace('.\w+', '_')|trim() }}",
+  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '')|replace('.\\w+', '_')|trim() }}",
   "short_name": "{{ cookiecutter.project_name.lower()[:2] }}",
   "description": "It's a new project",
   "author": "",
